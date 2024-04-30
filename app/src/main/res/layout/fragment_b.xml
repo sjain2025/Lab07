@@ -12,12 +12,26 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintWidth_percent="0.4"
+        android:layout_marginLeft="15dp"
         android:onClick="fragment_button_onclick"/>
     <TextView
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:id="@+id/b_textview"
+        android:layout_marginLeft="15dp"
         app:layout_constraintLeft_toRightOf="@+id/b_button"
         app:layout_constraintTop_toTopOf="@+id/b_button"
         app:layout_constraintWidth_percent="0.6" />
+    <TextView
+        android:id="@+id/quoteView"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintTop_toBottomOf="@+id/b_button"
+        android:textAlignment="center"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        app:layout_constraintWidth_percent="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,5 +4,6 @@
     <string name="button_click">Click Me</string>
     <string name="count">Count: %1$d</string>
     <string name="clicked_message">You clicked me</string>
-    <string name="click_here">Click here!</string>
+    <string name="click_here">Click here to get a new quote!</string>
+    <string name="quote_of_the_day">Quote of the Day</string>
 </resources>
