@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab07</string>
+    <string name="greeting">Going down</string>\
+    <string name="button_click">Click Me</string>
+    <string name="count">Count: %1$d</string>
+    <string name="clicked_message">You clicked me</string>
+    <string name="click_here">Click here!</string>
+</resources>
